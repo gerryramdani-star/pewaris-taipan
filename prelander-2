@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tawanan Sang Taipan</title>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        /* Mengatur font bawaan menjadi Inter */
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+        }
+        
+        /* Warna utama tombol */
+        .bg-primary { background-color: #6d4aff; }
+        .hover-bg-primary:hover { background-color: #5835eb; }
+        
+        /* Efek blur khusus untuk akhir cerita */
+        .text-blur {
+            filter: blur(5px);
+            user-select: none;
+            pointer-events: none;
+            opacity: 0.85;
+        }
+    </style>
+</head>
+
+<body class="bg-[#f5f5f7] min-h-screen py-10 px-4 flex items-center justify-center">
+
+    <!-- KONTENER UTAMA (SLIM FORMAT) -->
+    <div class="w-full max-w-2xl bg-white rounded-2xl shadow-sm border border-slate-100 p-6 md:p-10">
+        
+        <!-- GAMBAR COVER (Opsional) -->
+        <div class="w-full aspect-[3/4] overflow-hidden rounded-xl mb-6 bg-slate-100 shadow-sm hidden">
+            <!-- GANTI URL SRC DI BAWAH INI DENGAN LINK GAMBAR ANDA -->
+            <img src="https://placehold.co/600x800/2a1b38/ffffff?text=Tawanan+Sang+Taipan" alt="Ilustrasi Cerita" class="w-full h-full object-cover object-top">
+        </div>
+
+        <!-- Badge & Judul -->
+        <div class="mb-6 flex flex-col items-center md:items-start">
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-md bg-red-100 text-red-700 text-xs font-bold tracking-wide uppercase mb-4 shadow-sm">
+                🚨 Bab Puncak
+            </span>
+            <h1 class="text-2xl md:text-3xl font-bold text-slate-900 leading-snug text-center md:text-left">
+                Tawanan Sang Taipan
+            </h1>
+        </div>
+
+        <!-- Hook Section (Highlighter Box) -->
+        <div class="bg-red-50 border-l-4 border-red-500 p-4 mb-8 rounded-r-lg shadow-sm">
+            <p class="font-semibold text-red-800 text-[16px] md:text-[17px] italic leading-relaxed">
+                "Aku pikir aku bisa menyembunyikan bayi ini sendirian, sampai puluhan pengawal berjas hitam memblokir lorong rumah sakit tempat adikku dirawat. Sang predator telah menemukanku."
+            </p>
+        </div>
+
+        <!-- Konten Cerita (Short Story) -->
+        <div class="text-slate-700 leading-[1.8] space-y-5 text-[17px] md:text-[18px]">
+            <p>Jantungku seakan berhenti berdetak saat Reyhan Mahendra melangkah keluar dari kamar rawat adikku dengan tatapan mematikan.</p>
+            
+            <p>Pria itu telah melacakku. Ia sengaja membeli semua utang pamanku dan memindahkan adikku yang sakit kritis ke rumah sakit miliknya sebagai jaminan agar aku tidak bisa kabur.</p>
+            
+            <p class="font-bold text-slate-900">"Kamu pikir kamu bisa menyembunyikan pewaris tunggal keluarga Mahendra di dalam perut kecilmu itu dari pengawasanku?"</p>
+            
+            <p>bisiknya tajam, menyapu kulit leherku.</p>
+            
+            <p>Malam itu juga, aku diseret paksa ke rumah mewahnya dan dikurung di sayap barat. Di tengah isak tangisku, ia menjatuhkan vonis mutlak.</p>
+            
+            <p>Sebuah rombongan penghulu datang secara rahasia. Aku dipaksa menandatangani pernikahan siri, sementara seluruh dunia tahu bahwa bulan depan ia akan menikah secara resmi dengan wanita sosialita bernama Clarissa.</p>
+            
+            <p class="font-bold text-slate-900 text-lg">Aku hanya dijadikan tawanan di dalam sangkar emas.</p>
+
+            <!-- Teks Blur (Sensored Section) -->
+            <div class="mt-8 space-y-5 relative">
+                <!-- Gradasi putih untuk menambah efek dramatis pada blur -->
+                <div class="absolute inset-0 bg-gradient-to-b from-transparent to-white/60 pointer-events-none z-10"></div>
+                
+                <p class="text-blur">
+                    "Sekarang kamu sudah resmi menjadi milikku sepenuhnya di mata Tuhan," bisik Reyhan serak.
+                </p>
+                <p class="text-blur">
+                    Pria itu menundukkan wajahnya, mengklaim bibirku dengan l u m a t a n yang kasar dan menuntut penyerahan diri...
+                </p>
+                <p class="text-blur">
+                    Malam pertama rahasia di sangkar emas baru saja dimulai...
+                </p>
+                <p class="text-blur font-bold">
+                    Baca selengkapnya untuk mengungkap skandal publik dan pertarungan berdarah Reyhan melawan ayah kandungnya sendiri demi melindungi Anya ...
+                </p>
+            </div>
+        </div>
+
+        <!-- Tombol CTA 1 -->
+        <div class="mt-10 relative z-20">
+            <a href="YOUR_INNOVEL_LINK" target="_blank" data-position="top" class="cta-btn block w-full bg-primary hover-bg-primary text-white text-center font-bold text-sm sm:text-lg py-4 px-4 rounded-full shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1">
+                👉 LANJUTKAN MEMBACA!
+            </a>
+        </div>
+
+        <!-- Garis Pemisah -->
+        <div class="w-full h-px bg-slate-200 my-10"></div>
+
+        <!-- Komentar Pembaca (Social Proof) -->
+        <div class="mb-10">
+            <h3 class="text-sm font-bold text-slate-400 uppercase tracking-wider mb-5">Komentar Pembaca Terbaru</h3>
+            
+            <div class="space-y-4">
+                <!-- Komentar 1 -->
+                <div class="flex gap-3">
+                    <div class="w-10 h-10 rounded-full bg-pink-100 flex items-center justify-center text-pink-600 font-bold shrink-0">B</div>
+                    <div class="bg-slate-50 rounded-2xl rounded-tl-none p-3 text-sm text-slate-700">
+                        <p class="font-bold text-slate-900 mb-0.5">@BucinReyhan</p>
+                        Gilaaa! Pacing ceritanya cepet banget, baru bab awal udah bikin jantungan! Reyhan bener-bener Alpha posesif yang bikin klepek-klepek! 🔥🥵
+                    </div>
+                </div>
+                
+                <!-- Komentar 2 -->
+                <div class="flex gap-3">
+                    <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold shrink-0">A</div>
+                    <div class="bg-slate-50 rounded-2xl rounded-tl-none p-3 text-sm text-slate-700">
+                        <p class="font-bold text-slate-900 mb-0.5">@TimAnyaKuat</p>
+                        Nangis banget pas Anya ngerobek cek 500 juta. Walau miskin, dia punya harga diri tinggi! Nggak sabar lihat Reyhan bucin brutal sampai rela ninggalin Clarissa! 😭
+                    </div>
+                </div>
+                
+                <!-- Komentar 3 -->
+                <div class="flex gap-3">
+                    <div class="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600 font-bold shrink-0">P</div>
+                    <div class="bg-slate-50 rounded-2xl rounded-tl-none p-3 text-sm text-slate-700">
+                        <p class="font-bold text-slate-900 mb-0.5">@PembacaNovelHits</p>
+                        Sumpah cliffhanger setiap babnya racun banget! Baru baca dikit udah nagih pengen lanjut terus! Tuan Besar awas aja lu ya! 🤬
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bagian Rating & Sosial -->
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-6 mt-6 mb-6 text-slate-500 font-medium text-sm md:text-base">
+            <div class="flex items-center gap-1">
+                <span class="text-yellow-400 text-lg">⭐</span> 4.9 Rating
+            </div>
+            <div class="hidden sm:block text-slate-300">•</div>
+            <div class="flex items-center gap-1">
+                <span class="text-lg">👥</span> 450,000 Readers
+            </div>
+        </div>
+
+        <!-- CTA 2 Text -->
+        <p class="text-center italic font-semibold text-primary mt-6 mb-4 text-sm md:text-base px-2">
+            Sang Taipan telah mengunci mangsanya. Jangan sampai ketinggalan ketegangan, air mata, dan adegan panas dari kebucinan brutal Reyhan Mahendra!
+        </p>
+
+        <!-- Tombol CTA 2 (Secondary) -->
+        <div class="relative z-20">
+            <a href="YOUR_INNOVEL_LINK" target="_blank" data-position="bottom" class="cta-btn flex items-center justify-center gap-2 w-full bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-sm sm:text-lg py-4 px-8 rounded-full transition-colors border border-slate-200">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-amber-500"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 9.9-1"/></svg>
+                BUKA BAB SELANJUTNYA
+            </a>
+        </div>
+
+    </div>
+
+    <!-- Full Screen Loading Overlay -->
+    <div id="loadingOverlay" class="fixed inset-0 z-50 bg-slate-900/90 backdrop-blur-sm hidden flex-col items-center justify-center transition-opacity duration-300">
+        <!-- Spinner Animasi -->
+        <svg class="animate-spin h-14 w-14 text-primary mb-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+        </svg>
+        <p class="text-white text-xl font-bold text-center px-4 tracking-wide">Mohon tunggu...</p>
+        <p class="text-slate-300 text-sm font-medium text-center mt-2 px-4 animate-pulse">Membuka bab cerita selanjutnya</p>
+    </div>
+
+    <!-- Script Meta Pixel Tracking & Delay Redirect -->
+    <script>
+        document.querySelectorAll('.cta-btn').forEach(function(button){
+            button.addEventListener('click', function(e){
+                // 1. Mencegah link terbuka secara otomatis (ditahan dulu)
+                e.preventDefault(); 
+
+                var targetUrl = this.getAttribute('href');
+                var ctaPosition = this.getAttribute('data-position') || 'unknown';
+
+                // 2. Tampilkan Overlay Loading Layar Penuh
+                var overlay = document.getElementById('loadingOverlay');
+                overlay.classList.remove('hidden');
+                overlay.classList.add('flex'); // Tampilkan dengan mode flexbox
+
+                // 3. Tembakkan Data Meta Pixel (sekarang punya cukup waktu untuk loading)
+                if (typeof fbq === 'function') {
+                    // Standard Event
+                    fbq('track','InitiateCheckout', {
+                        content_name: 'Novel Continue',
+                        content_category: 'Novel Funnel',
+                        cta_position: ctaPosition
+                    });
+                    
+                    // Custom Event
+                    fbq('trackCustom','OutboundClick', {
+                        destination: 'Innovel'
+                    });
+                }
+
+                // 4. Jalankan Delay selama 3 Detik (3000 milidetik), lalu Pindah Halaman
+                setTimeout(function() {
+                    window.location.href = targetUrl; 
+                }, 3000);
+            });
+        });
+    </script>
+</body>
+</html>
